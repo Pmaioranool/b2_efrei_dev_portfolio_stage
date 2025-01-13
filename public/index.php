@@ -5,8 +5,6 @@ require_once __DIR__ . "/../vendor/autoload.php";
 // Change the path according to your project
 use App\Controllers\MainController;
 use App\Controllers\CoreController;
-use App\Controllers\UserController;
-use App\Controllers\publicationController;
 use Alterouter\Alterouter;
 use Alterouter\Request;
 
@@ -15,7 +13,7 @@ $router = new Alterouter();
 
 // Create a route with the generic method "addRoute"
 $router->addRoute('GET', '/', MainController::class . '@home', 'home');
-$router->addRoute('GET', '/a', MainController::class . '@home', 'b');
+$router->addRoute('GET', '/a', MainController::class . '@b', 'b');
 
 
 $route = $router->match(Request::getMethodFromGlobals(), Request::getPathFromGlobals());
