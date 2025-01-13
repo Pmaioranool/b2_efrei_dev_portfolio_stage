@@ -11,13 +11,11 @@ use Alterouter\Request;
 // Je créer une instance de Alterouter (la librairie que j'ai installé)
 $router = new Alterouter();
 
-// Create a route with the generic method "addRoute"
+// Créer une route avec la méthode générique "addRoute"
 $router->addRoute('GET', '/', MainController::class . '@home', 'home');
-$router->addRoute('GET', '/a', MainController::class . '@b', 'b');
 
 
 $route = $router->match(Request::getMethodFromGlobals(), Request::getPathFromGlobals());
-// dump($match);
 
 if ($route !== null) {
     if (is_string($route->getHandler())) {

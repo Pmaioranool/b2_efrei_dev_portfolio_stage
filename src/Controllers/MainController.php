@@ -12,8 +12,4 @@ class MainController extends CoreController
         $this->render('home');
     }
 
-    public function b()
-    {
-        $this->render('home');
-    }
 }
