@@ -16,7 +16,7 @@ $router = new Alterouter();
 $router->addRoute('GET', '/', MainController::class . '@home', 'home');
 $router->addRoute('GET', '/material', MainController::class . '@material', 'material');
 $router->addRoute('GET', '/technologies', MainController::class . '@technologies', 'technologies');
-$router->addRoute('GET', '/projects', MainController::class . 'projects', 'projects');
+$router->addRoute('GET', '/projects', MainController::class . '@projects', 'projects');
 $router->addRoute('POST', '/setLanguage', MainController::class . '@setLanguage', 'setLanguage');
 
 
