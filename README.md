@@ -34,6 +34,13 @@ Technologies
 Fonctionnalités
 ---------------
 
+page home accueillante
+CV téléchargeable
+multilingue
+page du matériel
+page des technologies connus
+page d'autres projets réaliser
+
 Installation
 ------------
 
