@@ -34,12 +34,12 @@
       "fr": {
         "sentence1": "Je suis disponible pour un entretien. N'hésitez pas à me contacter si vous avez des questions, des suggestions, ou des opportunités. Voici mon email ",
         "sentence2": ". Si possible, merci de mettre en objet : ",
-        "strong": "Proposition de stage ou d'alternance"
+        "strong": "Proposition de stage ou d'alternance."
       },
       "en": {
         "sentence1": "I am available for an interview. Do not hesitate to contact me if you have any questions, suggestions, or opportunities. Here is my email ",
         "sentence2": ". If possible, please put in the subject: ",
-        "strong": "Internship or apprenticeship proposal"
+        "strong": "Internship or apprenticeship proposal."
       }
     }
   }

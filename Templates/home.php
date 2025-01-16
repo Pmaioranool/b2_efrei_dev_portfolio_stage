@@ -12,13 +12,13 @@
             </ul>
         </section>
     </article>
-    <article class=".main-content">
+    <article class="main-content">
         <h1><?= $data['article2']['title'][$_SESSION['language']] ?></h1>
-        <p><?= $data['article2']['paragraph1'][$_SESSION['language']] ?></p>
-        <p><?= $data['article2']['paragraph2'][$_SESSION['language']] ?></p>
-        <p>
+        <p class="paragraph1"><?= $data['article2']['paragraph1'][$_SESSION['language']] ?></p>
+        <p class="paragraph2"><?= $data['article2']['paragraph2'][$_SESSION['language']] ?></p>
+        <p class="paragraph3">
             <?= $data['article2']['paragraph3'][$_SESSION['language']]["sentence1"] ?>
-            <a href="mailto:lucasmaiorano77@gmail.com" class="blackColor">lucasmaiorano77@gmail.com</a>
+            <a href="mailto:lucasmaiorano77@gmail.com" class="Mail">lucasmaiorano77@gmail.com</a>
             <?= $data['article2']['paragraph3'][$_SESSION['language']]["sentence1"] ?>
             <strong><?= $data['article2']['paragraph3'][$_SESSION['language']]["strong"] ?></strong>
         </p>
