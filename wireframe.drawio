@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="W973GStMNf3O7W8wURdh" name="Page-1">
+        <mxGraphModel dx="1770" dy="1139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Accueil--CV--techno connu--travaux fait" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="110" width="640" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="présentation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="305" y="220" width="445" height="370" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="information" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="400" width="150" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="photo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="220" width="150" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="FOOTER" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="620" width="630" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
