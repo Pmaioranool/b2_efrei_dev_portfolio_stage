@@ -1,3 +1,3 @@
 <main>
-    <h1>dans cette page</h1>
+    <h1>Voici les technologies avec les quelles j'ai travailler</h1>
 </main>

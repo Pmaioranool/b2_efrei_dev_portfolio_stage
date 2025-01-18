@@ -36,7 +36,12 @@ class MainController extends CoreController
         $this->render('projects', $data);
     }
 
-    public function setLanguage($matches)
+    public function project()
+    {
+        echo 'hello';
+    }
+
+    public function setLanguage()
     {
         // Je récupère la langue choisie par l'utilisateur
         $language = $_POST['language'];
