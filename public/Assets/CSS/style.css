@@ -28,17 +28,24 @@ a:hover {
 
 /* * Navigation */
 header {
-  height: 10vh;
+  height: 7vh;
+  background-color: var(--primary-color);
+  text-align: center;
+  min-height: 5vh;
+  display: flex;
+  justify-content: center; /* Change to space-between to accommodate the form */
+  align-items: center; /* Center items vertically */
+  padding: 0 2vw; /* Add some padding to the sides */
 }
 
 nav {
-  background-color: var(--primary-color);
   color: var(--link-color);
   padding: 10px 0;
   text-align: center;
   min-height: 5vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 nav a {
@@ -47,6 +54,30 @@ nav a {
   margin: 2vh 0;
   border-right: var(--secondary-color) solid 2px;
   font-size: 1vw;
+  vertical-align: bottom;
+}
+
+form {
+  margin: 0.3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+select,
+button {
+  background-color: var(--primary-color);
+  margin: 1vh 0;
+  padding: 0 1.7vh;
+  border: none;
+  color: var(--link-color);
+  font-size: 0.7vw;
+}
+
+select:hover,
+button:hover {
+  background-color: var(--link-color);
+  color: var(--primary-color);
 }
 
 /* * main */
@@ -55,7 +86,27 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  min-height: 83vh;
+  flex-wrap: wrap;
+}
+
+.aBlack {
+  font-weight: 700;
+  color: black;
+}
+
+section {
+  width: 50%;
+  margin: 1vh 2vw;
+}
+
+section ul {
+  list-style: disc;
+  padding: 0;
+}
+
+section ul li {
+  margin: 1% 2vw;
 }
 
 /* * home */
@@ -77,19 +128,55 @@ main {
   transform: translate(-50%, -50%); /* Centre l'image */
 }
 
-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-section ul li {
-  margin: 1% 2vw;
-}
-
 .main-content {
-  width: 60%;
+  margin: 2vh 2vw;
+  padding: 2vh 2vw;
+  width: 50%;
 }
 
+.main-content h1 {
+  font-size: 1.5vw;
+  margin: 1vh 0;
+}
+
+.main-content p {
+  font-size: 0.8vw;
+  margin: 1vh 0;
+}
+
+/* * material */
+
+.material-title {
+  width: 100%;
+  text-align: center;
+}
+
+.material-article {
+  margin: 1% 30%;
+  margin-bottom: 0;
+  padding-bottom: 1%;
+  min-width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: #333 solid 3px;
+}
+
+.material-article * {
+  margin: 0.5% 12.5%;
+  min-width: 75%;
+}
+
+.material-article a {
+  margin: 0;
+  min-width: 0;
+  text-align: center;
+}
+
+.material-article h2,
+.material-article p {
+  text-align: center;
+}
 /* * footer */
 
 footer {

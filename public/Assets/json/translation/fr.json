@@ -1,0 +1,85 @@
+{
+  "header": {
+    "title": "Portfolio Lucas MAIORANO",
+    "head": {
+      "nav": {
+        "link1": "Accueil",
+        "link2": "Télécharger mon cv",
+        "link3": "Matériels",
+        "link4": "Technologies",
+        "link5": "Projects"
+      },
+      "form": {
+        "select": {
+          "fr": "français",
+          "en": "english"
+        },
+        "button": "change"
+      }
+    }
+  },
+  "footer": {
+    "h3": "À propos",
+    "p1": "Portfolio de",
+    "p2": "Tous droits réservés."
+  },
+  "home": {
+    "article1": {
+      "title": "Compétences",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Symfony",
+        "Node.js",
+        "MySQL",
+        "PostgreSQL",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "article2": {
+      "title": "Salut, moi c'est Lucas",
+      "paragraph1": "Je suis un développeur web junior, passionné par le développement web et mobile. J'ai commencé à apprendre le développement web en école à EFREI en 2023. J'ai appris à développer des applications web et mobile en utilisant des technologies modernes et des méthodes agiles. J'ai acquis des compétences en HTML, CSS, JavaScript, PHP, Symfony, MySQL, PostgreSQL, Git, GitHub, et bien d'autres.",
+      "paragraph2": "Je suis actuellement à la recherche d'un stage et d'une alternance en tant que développeur web junior. Je suis ouvert à toutes les opportunités. Je suis prêt à relever de nouveaux défis et à apprendre de nouvelles technologies. Je suis motivé, curieux, autonome, rigoureux, et j'aime travailler en équipe. Je suis également passionné par la musique, les jeux vidéo, la lecture, les voyages et la cuisine.",
+      "paragraph3": {
+        "sentence1": "Je suis disponible pour un entretien. N'hésitez pas à me contacter si vous avez des questions, des suggestions, ou des opportunités. Voici mon email ",
+        "sentence2": ". Si possible, merci de mettre en objet : ",
+        "strong": "Proposition de stage ou d'alternance."
+      }
+    }
+  },
+  "material": {
+    "title": "Voici mon matériel pour travailler",
+    "article1": {
+      "h2": "PC portable",
+      "p": "mon PC portable est un ",
+      "ul": {
+        "title": "Performance",
+        "li1": "Processeur CPU : I7",
+        "li2": "Mémoire vive (RAM) : 16 Go",
+        "li3": "Carte graphique : Intégrée au processeur",
+        "li4": "OS : windows 11"
+      }
+    },
+    "article2": {
+      "h2": "PC fixe",
+      "p": "Mon PC fixe a été monté par mes soins, c'est un PC avec de grandes capacités et un Dual boot",
+      "ul": {
+        "title": "Performance",
+        "li1": "Processeur CPU : AMD Ryzen 7",
+        "li2": "Mémoire vive (RAM) : 32 Go",
+        "li3": "Carte graphique : RTX 4060",
+        "li4": "OS1 : Windows 11Pro",
+        "li5": "OS2 : Pop!_OS"
+      }
+    },
+    "article3": {
+      "h2": "Matériel",
+      "p": "En plus des PC je possède un micro-casque et un téléphone android"
+    }
+  },
+  "technologies": {},
+  "projects": {}
+}

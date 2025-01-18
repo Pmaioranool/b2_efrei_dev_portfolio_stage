@@ -1,0 +1,85 @@
+{
+  "header": {
+    "title": "Portfolio Lucas MAIORANO",
+    "head": {
+      "nav": {
+        "link1": "Home",
+        "link2": "Download my CV",
+        "link3": "Materials",
+        "link4": "technologies",
+        "link5": "Projects"
+      },
+      "form": {
+        "select": {
+          "fr": "français",
+          "en": "english"
+        },
+        "button": "changer"
+      }
+    }
+  },
+  "footer": {
+    "h3": "About",
+    "p1": "Portfolio of",
+    "p2": "All rights reserved."
+  },
+  "home": {
+    "article1": {
+      "title": "Skills",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Symfony",
+        "Node.js",
+        "MySQL",
+        "PostgreSQL",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "article2": {
+      "title": "Hi, I'm Lucas",
+      "paragraph1": "I am a junior web developer, passionate about web and mobile development. I started learning web development in school at EFREI in 2023. I learned to develop web and mobile applications using modern technologies and agile methods. I gained skills in HTML, CSS, JavaScript, PHP, Symfony, MySQL, PostgreSQL, Git, GitHub, and many others.",
+      "paragraph2": "I am currently looking for an internship and a work-study program as a junior web developer. I am open to all opportunities. I am ready to take on new challenges and learn new technologies. I am motivated, curious, autonomous, rigorous, and I like working in a team. I am also passionate about music, video games, reading, traveling and cooking.",
+      "paragraph3": {
+        "sentence1": "I am available for an interview. Please feel free to contact me if you have any questions, suggestions, or opportunities. Here is my email",
+        "sentence2": ". If possible, please put in the subject line:",
+        "strong": "Internship or work-study proposal."
+      }
+    }
+  },
+  "material": {
+    "title": "Here is my material to work with",
+    "article1": {
+      "h2": "laptop",
+      "p": "my laptop is a ",
+      "ul": {
+        "title": "Performance",
+        "li1": "CPU processor: I7",
+        "li2": "RAM: 16 GB",
+        "li3": "Graphics card: Integrated into the processor",
+        "li4": "OS: Windows 11"
+      }
+    },
+    "article2": {
+      "h2": "fixed pc",
+      "p": "My desktop PC was assembled by me, it is a PC with large capacities and a Dual boot",
+      "ul": {
+        "title": "Performance",
+        "li1": "CPU processor: AMD Ryzen 7",
+        "li2": "RAM: 32 GB",
+        "li3": "Graphics card: RTX 4060",
+        "li4": "OS1: Windows 11",
+        "li5": "OS2: Pop!_OS"
+      }
+    },
+    "article3": {
+      "h2": "Material",
+      "p": "In addition to PCs I have a headset and an Android phone"
+    }
+  },
+  "technologies": {},
+  "projects": {}
+}
