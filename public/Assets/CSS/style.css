@@ -86,7 +86,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 83vh;
+  min-height: 83vh;
+  flex-wrap: wrap;
 }
 
 .aBlack {
@@ -145,6 +146,37 @@ section ul li {
 
 /* * material */
 
+.material-title {
+  width: 100%;
+  text-align: center;
+}
+
+.material-article {
+  margin: 1% 30%;
+  margin-bottom: 0;
+  padding-bottom: 1%;
+  min-width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: #333 solid 3px;
+}
+
+.material-article * {
+  margin: 0.5% 12.5%;
+  min-width: 75%;
+}
+
+.material-article a {
+  margin: 0;
+  min-width: 0;
+  text-align: center;
+}
+
+.material-article h2,
+.material-article p {
+  text-align: center;
+}
 /* * footer */
 
 footer {

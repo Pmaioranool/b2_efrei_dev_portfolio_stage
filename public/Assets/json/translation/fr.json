@@ -50,7 +50,36 @@
       }
     }
   },
-  "material": {},
+  "material": {
+    "title": "Voici mon matériel pour travailler",
+    "article1": {
+      "h2": "PC portable",
+      "p": "mon PC portable est un ",
+      "ul": {
+        "title": "Performance",
+        "li1": "Processeur CPU : I7",
+        "li2": "Mémoire vive (RAM) : 16 Go",
+        "li3": "Carte graphique : Intégrée au processeur",
+        "li4": "OS : windows 11"
+      }
+    },
+    "article2": {
+      "h2": "PC fixe",
+      "p": "Mon PC fixe a été monté par mes soins, c'est un PC avec de grandes capacités et un Dual boot",
+      "ul": {
+        "title": "Performance",
+        "li1": "Processeur CPU : AMD Ryzen 7",
+        "li2": "Mémoire vive (RAM) : 32 Go",
+        "li3": "Carte graphique : RTX 4060",
+        "li4": "OS1 : Windows 11Pro",
+        "li5": "OS2 : Pop!_OS"
+      }
+    },
+    "article3": {
+      "h2": "Matériel",
+      "p": "En plus des PC je possède un micro-casque et un téléphone android"
+    }
+  },
   "technologies": {},
   "projects": {}
 }

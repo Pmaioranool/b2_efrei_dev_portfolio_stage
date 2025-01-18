@@ -19,21 +19,21 @@ class MainController extends CoreController
     {
         $obj = $this->getTextes();
         $data = $obj['material'];
-        $this->render('material');
+        $this->render('material', $data);
     }
 
     public function technologies()
     {
         $obj = $this->getTextes();
         $data = $obj['technologies'];
-        $this->render('technologies');
+        $this->render('technologies', $data);
     }
 
     public function projects()
     {
         $obj = $this->getTextes();
         $data = $obj['projects'];
-        $this->render('projects');
+        $this->render('projects', $data);
     }
 
     public function setLanguage($matches)

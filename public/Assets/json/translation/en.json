@@ -50,7 +50,36 @@
       }
     }
   },
-  "material": {},
+  "material": {
+    "title": "Here is my material to work with",
+    "article1": {
+      "h2": "laptop",
+      "p": "my laptop is a ",
+      "ul": {
+        "title": "Performance",
+        "li1": "CPU processor: I7",
+        "li2": "RAM: 16 GB",
+        "li3": "Graphics card: Integrated into the processor",
+        "li4": "OS: Windows 11"
+      }
+    },
+    "article2": {
+      "h2": "fixed pc",
+      "p": "My desktop PC was assembled by me, it is a PC with large capacities and a Dual boot",
+      "ul": {
+        "title": "Performance",
+        "li1": "CPU processor: AMD Ryzen 7",
+        "li2": "RAM: 32 GB",
+        "li3": "Graphics card: RTX 4060",
+        "li4": "OS1: Windows 11",
+        "li5": "OS2: Pop!_OS"
+      }
+    },
+    "article3": {
+      "h2": "Material",
+      "p": "In addition to PCs I have a headset and an Android phone"
+    }
+  },
   "technologies": {},
   "projects": {}
 }
