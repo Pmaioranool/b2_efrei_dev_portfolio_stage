@@ -1,5 +1,5 @@
 <main class>
-    <h1 class="material-title"><?= $data["title"] ?></h1>
+    <h1><?= $data["title"] ?></h1>
     <article class="material-article">
         <h2><?= $data["article1"]["h2"] ?></h2>
         <p><?= $data["article1"]["p"] ?></p><a href="https://www.boulanger.com/ref/1189783" target="_blank"
