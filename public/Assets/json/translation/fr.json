@@ -39,15 +39,31 @@
         "GitHub"
       ]
     },
-    "article2": {
+    "article": {
       "title": "Salut, moi c'est Lucas",
-      "paragraph1": "Je suis un développeur web junior, passionné par le développement web et mobile. J'ai commencé à apprendre le développement web en école à EFREI en 2023. J'ai appris à développer des applications web et mobile en utilisant des technologies modernes et des méthodes agiles. J'ai acquis des compétences en HTML, CSS, JavaScript, PHP, Symfony, MySQL, PostgreSQL, Git, GitHub, et bien d'autres.",
-      "paragraph2": "Je suis actuellement à la recherche d'un stage et d'une alternance en tant que développeur web junior. Je suis ouvert à toutes les opportunités. Je suis prêt à relever de nouveaux défis et à apprendre de nouvelles technologies. Je suis motivé, curieux, autonome, rigoureux, et j'aime travailler en équipe. Je suis également passionné par la musique, les jeux vidéo, la lecture, les voyages et la cuisine.",
-      "paragraph3": {
-        "sentence1": "Je suis disponible pour un entretien. N'hésitez pas à me contacter si vous avez des questions, des suggestions, ou des opportunités. Voici mon email ",
-        "sentence2": ". Si possible, merci de mettre en objet : ",
-        "strong": "Proposition de stage ou d'alternance."
-      }
+      "h2-1": "À propos de moi",
+      "paragraph1": "Je m'appelle Lucas, développeur web junior passionné par le développement web et mobile. Actuellement étudiant à l'EFREI (promotion 2023), j'ai eu l'opportunité de me former aux technologies modernes et aux méthodes agiles, me permettant de développer des applications performantes et innovantes.",
+      "ul": {
+        "title": "Compétences techniques",
+        "li1-t": "Frontend : ",
+        "li1": "HTML, CSS, JavaScript",
+        "li2-t": "Backend : ",
+        "li2": "PHP, Symfony",
+        "li3-t": "Bases de données : ",
+        "li3": "MySQL, PostgreSQL",
+        "li4-t": "Outils et workflow : ",
+        "li4": "Git, GitHub",
+        "paragraph": "Je continue également à élargir mes compétences pour rester à jour avec les dernières tendances du secteur."
+      },
+      "h2-2": "Ce que je recherche",
+      "paragraph2": "Je suis activement à la recherche d’un stage ou d’une alternance en tant que développeur web junior. Motivé, curieux et rigoureux, je suis prêt à relever de nouveaux défis, à apprendre de nouvelles technologies, et à m’investir pleinement dans une équipe.",
+      "h2-3": "Centres d'intérêt",
+      "paragraph3": "En dehors du développement, j’ai une grande passion pour la musique, les jeux vidéo, la lecture, les voyages, et la cuisine. Ces passions nourrissent ma créativité et ma capacité à m’adapter à différents environnements.",
+      "h2-4": "Contact",
+      "p": "Email : ",
+      "paragraph4": "Merci d'indiquer en objet :",
+      "strong": "Proposition de stage ou d’alternance.",
+      "paragraph5": "Je suis disponible pour un entretien ou pour échanger si vous avez des questions, des suggestions ou des opportunités à me proposer."
     }
   },
   "material": {

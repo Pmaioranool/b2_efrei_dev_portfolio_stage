@@ -76,8 +76,7 @@ button {
 
 select:hover,
 button:hover {
-  background-color: var(--link-color);
-  color: var(--primary-color);
+  color: var(--link-hover-color);
 }
 
 /* * main */
@@ -96,6 +95,7 @@ h1 {
 }
 
 .aBlack {
+  font-size: 0.8vw;
   font-weight: 700;
   color: black;
 }
@@ -116,37 +116,52 @@ section ul li {
 
 /* * home */
 
+.image-container-container {
+  position: absolute;
+  top: 7%;
+  left: 0%;
+}
 .image-container {
-  width: 300px; /* Largeur du conteneur */
-  height: 300px; /* Hauteur du conteneur */
-  overflow: hidden; /* Cache tout débordement */
-  position: relative; /* Utile pour des effets ou ajustements supplémentaires */
-  border: 2px solid black; /* Optionnel : pour visualiser les limites */
+  width: 22vh;
+  height: 22vh;
+  overflow: hidden;
+  position: relative;
+  border: 2px solid black;
 }
 
 .image-profile {
-  width: 100%; /* L'image s'adapte à la largeur du conteneur */
-  height: auto; /* Conserve le ratio de l'image */
+  width: 100%;
+  height: auto;
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translate(-50%, -50%); /* Centre l'image */
+  transform: translate(-50%, -50%);
 }
 
 .main-content {
-  margin: 2vh 2vw;
-  padding: 2vh 2vw;
-  width: 50%;
+  margin: 0 2vw 2vh 2vw;
+  padding: 0 2vw 2vh 2vw;
+  width: 70%;
+  min-height: 75vh;
 }
 
 .main-content h1 {
   font-size: 1.5vw;
-  margin: 1vh 0;
+  margin: 5vh 0;
 }
 
 .main-content p {
   font-size: 0.8vw;
-  margin: 1vh 0;
+  margin: 1vh 0 3vh 0;
+}
+
+.main-content ul li {
+  font-size: 0.8vw;
+  margin: 0.3vh 1.5vw;
+}
+
+.main-content a {
+  margin-top: 1vh;
 }
 
 /* * material and technologies */
