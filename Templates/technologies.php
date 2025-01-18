@@ -1,3 +1,8 @@
 <main>
-    <h1>Voici les technologies avec les quelles j'ai travailler</h1>
+    <h1><?= $data['title'] ?></h1>
+    <?php foreach ($data['technos'] as $key => $values) { ?>
+        <article class="material-article">
+
+        </article>
+    <?php } ?>
 </main>

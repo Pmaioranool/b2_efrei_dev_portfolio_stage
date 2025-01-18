@@ -80,6 +80,20 @@
       "p": "En plus des PC je possède un micro-casque et un téléphone android"
     }
   },
-  "technologies": {},
+  "technologies": {
+    "title": "Voici les technologies avec les quelles j'ai travailler",
+    "technos": {
+      "HTML": {},
+      "CSS": {},
+      "JavaScript": {},
+      "PHP": {},
+      "Symfony": {},
+      "Node.js": {},
+      "MySQL": {},
+      "PostgreSQL": {},
+      "Git": {},
+      "GitHub": {}
+    }
+  },
   "projects": {}
 }
