@@ -22,7 +22,8 @@
                 <option value="fr" <?= $_SESSION['language'] == 'en' ? 'selected' : '' ?>>Français</option>
                 <option value="en" <?= $_SESSION['language'] == 'fr' ? 'selected' : '' ?>>English</option>
             </select>
-            <button type="submit"
-                class="language-button"><?= $_SESSION['language'] === 'en' ? 'changer' : 'change' ?></button>
+            <button type="submit" class="language-button">
+                <?= $headerData["head"]["form"]['button'] ?>
+            </button>
         </form>
     </header>

@@ -1,0 +1,49 @@
+{
+  "header": {
+    "title": "Portfolio Lucas MAIORANO",
+    "head": {
+      "nav": {
+        "link1": "",
+        "link2": "",
+        "link3": "",
+        "link4": "",
+        "link5": ""
+      },
+      "form": {
+        "select": {},
+        "button": "changer"
+      }
+    }
+  },
+  "footer": {},
+  "home": {
+    "article1": {
+      "title": "Skills",
+      "skills": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "Symfony",
+        "Node.js",
+        "MySQL",
+        "PostgreSQL",
+        "Git",
+        "GitHub"
+      ]
+    },
+    "article2": {
+      "title": "Hi, I'm Lucas",
+      "paragraph1": "I am a junior web developer, passionate about web and mobile development. I started learning web development at EFREI school in 2023. I learned to develop web and mobile applications using modern technologies and agile methods. I have acquired skills in HTML, CSS, JavaScript, PHP, Symfony, MySQL, PostgreSQL, Git, GitHub, and many others.",
+      "paragraph2": "I am currently looking for an internship and an apprenticeship as a junior web developer. I am open to all opportunities. I am ready to take on new challenges and learn new technologies. I am motivated, curious, autonomous, rigorous, and I enjoy working in a team. I am also passionate about music, video games, reading, traveling, and cooking.",
+      "paragraph3": {
+        "sentence1": "I am available for an interview. Do not hesitate to contact me if you have any questions, suggestions, or opportunities. Here is my email ",
+        "sentence2": ". If possible, please put in the subject: ",
+        "strong": "Internship or apprenticeship proposal."
+      }
+    }
+  },
+  "material": {},
+  "technologies": {},
+  "projects": {}
+}

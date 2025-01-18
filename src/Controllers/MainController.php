@@ -9,25 +9,30 @@ class MainController extends CoreController
     // Page d'accueil
     public function home()
     {
-        $file = '../public/Assets/json/langues/home.json';
-        $json = file_get_contents($file);
-        $data = json_decode($json, true); // Décoder en tableau associatif
+        $obj = $this->getTextes();
+        $data = $obj['home'];
         // J'appelle la méthode render de CoreController pour afficher la vue home avec les données du json
         $this->render('home', $data);
     }
 
     public function material()
     {
+        $obj = $this->getTextes();
+        $data = $obj['material'];
         $this->render('material');
     }
 
     public function technologies()
     {
+        $obj = $this->getTextes();
+        $data = $obj['technologies'];
         $this->render('technologies');
     }
 
     public function projects()
     {
+        $obj = $this->getTextes();
+        $data = $obj['projects'];
         $this->render('projects');
     }
 
@@ -40,4 +45,6 @@ class MainController extends CoreController
         // Je redirige l'utilisateur vers la page précédente
         header('Location: ' . $_SERVER['HTTP_REFERER']);
     }
+
+
 }

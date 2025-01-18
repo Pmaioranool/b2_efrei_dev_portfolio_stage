@@ -89,6 +89,25 @@ main {
   height: 83vh;
 }
 
+.aBlack {
+  font-weight: 700;
+  color: black;
+}
+
+section {
+  width: 50%;
+  margin: 1vh 2vw;
+}
+
+section ul {
+  list-style: disc;
+  padding: 0;
+}
+
+section ul li {
+  margin: 1% 2vw;
+}
+
 /* * home */
 
 .image-container {
@@ -108,20 +127,6 @@ main {
   transform: translate(-50%, -50%); /* Centre l'image */
 }
 
-section {
-  width: 50%;
-  margin: 1vh 2vw;
-}
-
-section ul {
-  list-style: disc;
-  padding: 0;
-}
-
-section ul li {
-  margin: 1% 2vw;
-}
-
 .main-content {
   margin: 2vh 2vw;
   padding: 2vh 2vw;
@@ -138,10 +143,7 @@ section ul li {
   margin: 1vh 0;
 }
 
-.Mail {
-  font-weight: 700;
-  color: black;
-}
+/* * material */
 
 /* * footer */
 
