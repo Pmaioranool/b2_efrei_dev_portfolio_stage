@@ -3,19 +3,26 @@
     "title": "Portfolio Lucas MAIORANO",
     "head": {
       "nav": {
-        "link1": "",
-        "link2": "",
-        "link3": "",
-        "link4": "",
-        "link5": ""
+        "link1": "Home",
+        "link2": "Download my CV",
+        "link3": "Materials",
+        "link4": "technologies",
+        "link5": "Projects"
       },
       "form": {
-        "select": {},
+        "select": {
+          "fr": "français",
+          "en": "english"
+        },
         "button": "changer"
       }
     }
   },
-  "footer": {},
+  "footer": {
+    "h3": "About",
+    "p1": "Portfolio of",
+    "p2": "All rights reserved."
+  },
   "home": {
     "article1": {
       "title": "Skills",
@@ -34,12 +41,12 @@
     },
     "article2": {
       "title": "Hi, I'm Lucas",
-      "paragraph1": "I am a junior web developer, passionate about web and mobile development. I started learning web development at EFREI school in 2023. I learned to develop web and mobile applications using modern technologies and agile methods. I have acquired skills in HTML, CSS, JavaScript, PHP, Symfony, MySQL, PostgreSQL, Git, GitHub, and many others.",
-      "paragraph2": "I am currently looking for an internship and an apprenticeship as a junior web developer. I am open to all opportunities. I am ready to take on new challenges and learn new technologies. I am motivated, curious, autonomous, rigorous, and I enjoy working in a team. I am also passionate about music, video games, reading, traveling, and cooking.",
+      "paragraph1": "I am a junior web developer, passionate about web and mobile development. I started learning web development in school at EFREI in 2023. I learned to develop web and mobile applications using modern technologies and agile methods. I gained skills in HTML, CSS, JavaScript, PHP, Symfony, MySQL, PostgreSQL, Git, GitHub, and many others.",
+      "paragraph2": "I am currently looking for an internship and a work-study program as a junior web developer. I am open to all opportunities. I am ready to take on new challenges and learn new technologies. I am motivated, curious, autonomous, rigorous, and I like working in a team. I am also passionate about music, video games, reading, traveling and cooking.",
       "paragraph3": {
-        "sentence1": "I am available for an interview. Do not hesitate to contact me if you have any questions, suggestions, or opportunities. Here is my email ",
-        "sentence2": ". If possible, please put in the subject: ",
-        "strong": "Internship or apprenticeship proposal."
+        "sentence1": "I am available for an interview. Please feel free to contact me if you have any questions, suggestions, or opportunities. Here is my email",
+        "sentence2": ". If possible, please put in the subject line:",
+        "strong": "Internship or work-study proposal."
       }
     }
   },

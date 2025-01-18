@@ -3,19 +3,26 @@
     "title": "Portfolio Lucas MAIORANO",
     "head": {
       "nav": {
-        "link1": "",
-        "link2": "",
-        "link3": "",
-        "link4": "",
-        "link5": ""
+        "link1": "Accueil",
+        "link2": "Télécharger mon cv",
+        "link3": "Matériels",
+        "link4": "Technologies",
+        "link5": "Projects"
       },
       "form": {
-        "select": {},
-        "button": "changer"
+        "select": {
+          "fr": "français",
+          "en": "english"
+        },
+        "button": "change"
       }
     }
   },
-  "footer": {},
+  "footer": {
+    "h3": "À propos",
+    "p1": "Portfolio de",
+    "p2": "Tous droits réservés."
+  },
   "home": {
     "article1": {
       "title": "Compétences",

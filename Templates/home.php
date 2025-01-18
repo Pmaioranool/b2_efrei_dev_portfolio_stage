@@ -19,7 +19,7 @@
         <p class="paragraph3">
             <?= $data['article2']['paragraph3']["sentence1"] ?>
             <a href="mailto:lucasmaiorano77@gmail.com" class="aBlack">lucasmaiorano77@gmail.com</a>
-            <?= $data['article2']['paragraph3']["sentence1"] ?>
+            <?= $data['article2']['paragraph3']["sentence2"] ?>
             <strong><?= $data['article2']['paragraph3']["strong"] ?></strong>
         </p>
     </article>
