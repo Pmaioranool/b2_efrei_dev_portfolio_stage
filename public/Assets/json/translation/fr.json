@@ -98,17 +98,70 @@
   },
   "technologies": {
     "title": "Voici les technologies avec les quelles j'ai travailler",
+    "descriptionText": "Description :",
+    "principaleText": "Principalement utilisées pour :",
     "technos": {
-      "HTML": {},
-      "CSS": {},
-      "JavaScript": {},
-      "PHP": {},
-      "Symfony": {},
-      "Node.js": {},
-      "MySQL": {},
-      "PostgreSQL": {},
-      "Git": {},
-      "GitHub": {}
+      "HTML": {
+        "description": "HTML est le langage standard utilisé pour structurer et présenter le contenu des pages web. Il permet de définir la structure d'une page en utilisant des balises comme &lt;p&gt; pour les paragraphes, &lt;a&gt; pour les liens, et &lt;div&gt; pour les conteneurs.",
+        "principale": "Création de la structure des pages web.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+      },
+      "CSS": {
+        "description": "CSS est un langage de style utilisé pour contrôler l'apparence des documents HTML. Il permet de définir les couleurs, polices, espacements, dispositions, et autres éléments visuels.",
+        "principale": "Stylisation et mise en page des sites web.",
+        "know": "85",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+      },
+      "JavaScript": {
+        "description": "JavaScript est un langage de programmation dynamique et interprété qui permet d'ajouter des fonctionnalités interactives aux pages web, comme les animations, les formulaires dynamiques ou la mise à jour du contenu sans recharger la page.",
+        "principale": "Interactivité et dynamisme des pages web.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+      },
+      "Node.js": {
+        "description": "Node.js est une plateforme JavaScript côté serveur qui permet d'exécuter du code JavaScript en dehors d'un navigateur. Il est conçu pour des applications réseau rapides et évolutives grâce à son architecture non-bloquante et basée sur les événements.",
+        "principale": "Création d'applications côté serveur et en temps réel (comme les chats ou les APIs).",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+      },
+      "PHP": {
+        "description": "PHP est un langage de script côté serveur conçu pour le développement web. Il est utilisé pour créer des pages web dynamiques en générant du contenu basé sur des données provenant d'une base de données ou d'autres sources.",
+        "principale": "Création de sites web dynamiques et gestion des serveurs.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+      },
+      "Symfony": {
+        "description": "Symfony est un framework PHP puissant et flexible qui aide à construire des applications web robustes. Il suit une architecture MVC (Modèle-Vue-Contrôleur) et fournit des outils réutilisables pour accélérer le développement.",
+        "principale": "Développement d'applications web structurées et maintenables.",
+        "know": "99",
+        "logo": "https://imgs.search.brave.com/6otm1BbZzvfGDNcb6vMbRoSS3F1YhOFBVE6klJdZHEQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zeW1m/b255LmNvbS9sb2dv/cy9zeW1mb255X2Js/YWNrXzAyLnBuZw"
+      },
+
+      "MySQL": {
+        "description": "MySQL est un système de gestion de base de données relationnelle open-source. Il utilise le langage SQL pour manipuler et gérer les données stockées dans des tables.",
+        "principale": "Stockage, organisation et récupération des données.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+      },
+      "PostgreSQL": {
+        "description": "PostgreSQL est un système avancé de gestion de base de données relationnelle open-source, connu pour sa robustesse, son extensibilité, et son support pour des fonctionnalités avancées comme les types de données personnalisés.",
+        "principale": "Gestion de bases de données complexes et performantes.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+      },
+      "Git": {
+        "description": "Git est un système de contrôle de version distribué qui permet aux développeurs de suivre les modifications du code source, collaborer efficacement et gérer plusieurs versions d'un projet.",
+        "principale": "Contrôle de version et collaboration dans les projets de développement.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+      },
+      "GitHub": {
+        "description": "GitHub est une plateforme basée sur Git pour stocker, partager et collaborer sur des projets de développement. Elle offre des outils comme les pull requests, les issues, et les workflows pour la gestion des projets.",
+        "principale": "Hébergement et collaboration sur les projets de code source.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+      }
     }
   },
   "projects": {}

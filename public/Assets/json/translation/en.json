@@ -96,6 +96,73 @@
       "p": "In addition to PCs I have a headset and an Android phone"
     }
   },
-  "technologies": {},
+  "technologies": {
+    "title": "Here are the technologies I worked with",
+    "descriptionText": "Description:",
+    "principaleText": "Mainly used for:",
+    "technos": {
+      "HTML": {
+        "description": "HTML is the standard language used to structure and display content on web pages. It allows you to define the structure of a page using tags, such as &lt;p&gt; for paragraphs, &lt;a&gt; for links, and &lt;div&gt; for containers.",
+        "principale": "Creating the structure of web pages.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+      },
+      "CSS": {
+        "description": "CSS is a styling language used to control the appearance of HTML documents. It defines colors, fonts, spacing, layouts, and other visual elements.",
+        "principale": "Styling and layout of web pages.",
+        "know": "85",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+      },
+      "JavaScript": {
+        "description": "JavaScript is a dynamic and interpreted programming language that allows you to add interactive features to web pages, such as animations, dynamic forms, or content updates without reloading the page.",
+        "principale": "Interactivity and dynamism of web pages.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+      },
+      "Node.js": {
+        "description": "Node.js is a server-side JavaScript platform that allows you to run JavaScript code outside a browser. It is designed for fast, scalable network applications with its non-blocking, event-driven architecture.",
+        "principale": "Building server-side and real-time applications (like chats or APIs).",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+      },
+      "PHP": {
+        "description": "PHP is a server-side scripting language designed for web development. It is used to create dynamic web pages by generating content based on data from a database or other sources.",
+        "principale": "Building dynamic websites and managing servers.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+      },
+      "Symfony": {
+        "description": "Symfony is a powerful and flexible PHP framework that helps build robust web applications. It follows an MVC (Model-View-Controller) architecture and provides reusable tools to speed up development.",
+        "principale": "Developing structured and maintainable web applications.",
+        "know": "99",
+        "logo": "https://imgs.search.brave.com/6otm1BbZzvfGDNcb6vMbRoSS3F1YhOFBVE6klJdZHEQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zeW1m/b255LmNvbS9sb2dv/cy9zeW1mb255X2Js/YWNrXzAyLnBuZw"
+      },
+
+      "MySQL": {
+        "description": "MySQL is an open-source relational database management system. It uses SQL language to manipulate and manage data stored in tables.",
+        "principale": "Storing, organizing, and retrieving data.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+      },
+      "PostgreSQL": {
+        "description": "PostgreSQL is an advanced open-source relational database management system known for its robustness, extensibility, and support for advanced features like custom data types.",
+        "principale": "Managing complex and high-performance databases.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+      },
+      "Git": {
+        "description": "Git is a distributed version control system that allows developers to track changes to source code, collaborate effectively, and manage multiple versions of a project.",
+        "principale": "Version control and collaboration in development projects.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+      },
+      "GitHub": {
+        "description": "GitHub is a Git-based platform for storing, sharing, and collaborating on development projects. It offers tools like pull requests, issues, and workflows for project management.",
+        "principale": "Hosting and collaboration on source code projects.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+      }
+    }
+  },
   "projects": {}
 }

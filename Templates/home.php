@@ -1,11 +1,11 @@
 <main>
+    <h1><?= $data['article']['title'] ?></h1>
     <article class="image-container-container">
         <section class="image-container">
             <img src="/Assets/Images/profile/profileLoin.jpg" alt="photo de profile" class="image-profile">
         </section>
     </article>
     <article class="main-content">
-        <h1><?= $data['article']['title'] ?></h1>
 
         <h2><?= $data['article']['h2-1'] ?></h2>
         <p class="paragraph1"><?= $data['article']['paragraph1'] ?></p>
