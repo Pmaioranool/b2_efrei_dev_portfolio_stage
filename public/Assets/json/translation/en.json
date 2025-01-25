@@ -1,5 +1,5 @@
 {
-  "header": {
+  "headerPage": {
     "title": "Portfolio Lucas MAIORANO",
     "head": {
       "nav": {
@@ -18,12 +18,12 @@
       }
     }
   },
-  "footer": {
+  "footerPage": {
     "h3": "About",
     "p1": "Portfolio of",
     "p2": "All rights reserved."
   },
-  "home": {
+  "homePage": {
     "article1": {
       "title": "Skills",
       "skills": [
@@ -66,7 +66,7 @@
       "paragraph5": "I am available for an interview or to discuss if you have questions, suggestions or opportunities to offer me."
     }
   },
-  "material": {
+  "materialPage": {
     "title": "Here is my material to work with",
     "article1": {
       "h2": "laptop",
@@ -96,7 +96,7 @@
       "p": "In addition to PCs I have a headset and an Android phone"
     }
   },
-  "technologies": {
+  "technologiesPage": {
     "title": "Here are the technologies I worked with",
     "descriptionText": "Description:",
     "principaleText": "Mainly used for:",
@@ -164,5 +164,75 @@
       }
     }
   },
-  "projects": {}
+  "projectsPage": {
+    "title": "Here are some of my projects",
+    "importantText": {
+      "timeText": "Time spent: ",
+      "technologiesText": "Technologies used: ",
+      "linkText": "View project",
+      "repoText": "View repository",
+      "descriptionText": "Description: ",
+      "backText": "Back to projects"
+    },
+    "projects": {
+      "1": {
+        "title": "Portfolio",
+        "description": "My personal portfolio to showcase my skills, background, and projects. It is built with HTML, CSS, and JavaScript, and hosted on GitHub Pages.",
+        "technologies": ["HTML", "CSS", "PHP", "Docker", "alteRouter"],
+        "time": "20 hours",
+        "link": "https://github.com/Pmaioranool/b2_efrei_dev_portfolio_stage"
+      },
+      "2": {
+        "title": "Alpine WFHelper",
+        "description": "A tool developed for workflow automation and management on Alpine. The project explores the integration of custom scripts to simplify processes.",
+        "technologies": ["Alpine JS", "Warframe API", "JavaScript"],
+        "time": "10 hours",
+        "link": "https://github.com/Pmaioranool/efrei_B2_alpine_WFHelper"
+      },
+      "3": {
+        "title": "Server Web",
+        "description": "Development of a simple web server, capable of hosting and serving static or dynamic content. Ideal for exploring the basics of web servers.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "PHP",
+          "VM",
+          "Apache",
+          "altoRouter",
+          "MySQL"
+        ],
+        "time": "30 hours",
+        "link": "https://github.com/Pmaioranool/efrei_b2_serverWeb"
+      },
+      "4": {
+        "title": "Helldiver's 2 Challenge",
+        "description": "Participation in a web challenge as part of the EFREI curriculum, showcasing front-end development skills and problem-solving.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "PostgreSQL",
+          "Docker",
+          "alteRouter"
+        ],
+        "time": "20 hours",
+        "link": "https://github.com/AlpinooO/efrei_b2_challengeWeb_Helldiver-s-2"
+      },
+      "5": {
+        "title": "THREE.js Pong Project",
+        "description": "An implementation of the classic Pong game using THREE.js, showcasing 3D graphics and immersive game logic.",
+        "technologies": ["JavaScript", "THREE.js"],
+        "time": "2 hours",
+        "link": "https://github.com/Pmaioranool/efrei_b2_THREEjs_projet_pong"
+      },
+      "6": {
+        "title": "Unix Project",
+        "description": "A project focused on development in a Unix environment, using custom scripts to solve problems or automate tasks.",
+        "technologies": ["Unix", "Bash", "Shell scripting"],
+        "time": "7 hours",
+        "link": "https://github.com/Pmaioranool/efrei_bdev2_unix_projet"
+      }
+    }
+  }
 }

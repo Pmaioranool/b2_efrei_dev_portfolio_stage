@@ -1,5 +1,5 @@
 {
-  "header": {
+  "headerPage": {
     "title": "Portfolio Lucas MAIORANO",
     "head": {
       "nav": {
@@ -18,12 +18,12 @@
       }
     }
   },
-  "footer": {
+  "footerPage": {
     "h3": "À propos",
     "p1": "Portfolio de",
     "p2": "Tous droits réservés."
   },
-  "home": {
+  "homePage": {
     "article1": {
       "title": "Compétences",
       "skills": [
@@ -66,7 +66,7 @@
       "paragraph5": "Je suis disponible pour un entretien ou pour échanger si vous avez des questions, des suggestions ou des opportunités à me proposer."
     }
   },
-  "material": {
+  "materialPage": {
     "title": "Voici mon matériel pour travailler",
     "article1": {
       "h2": "PC portable",
@@ -96,7 +96,7 @@
       "p": "En plus des PC je possède un micro-casque et un téléphone android"
     }
   },
-  "technologies": {
+  "technologiesPage": {
     "title": "Voici les technologies avec les quelles j'ai travailler",
     "descriptionText": "Description :",
     "principaleText": "Principalement utilisées pour :",
@@ -164,5 +164,75 @@
       }
     }
   },
-  "projects": {}
+  "projectsPage": {
+    "title": "Voici quelques-uns de mes projets",
+    "importantText": {
+      "timeText": "Réalisé en : ",
+      "technologiesText": "Technologies utilisées : ",
+      "linkText": "Voir le projet",
+      "repoText": "voir le repo",
+      "descriptionText": "Description :",
+      "backText": "Retour aux projets"
+    },
+    "projects": {
+      "1": {
+        "title": "Portfolio",
+        "description": "Mon portfolio personnel pour présenter mes compétences, mon parcours, et mes projets. Il est conçu avec HTML, CSS, et JavaScript, et hébergé sur GitHub Pages.",
+        "technologies": ["HTML", "CSS", "PHP", "Docker", "alteRouter"],
+        "time": "20 heures",
+        "link": "https://github.com/Pmaioranool/b2_efrei_dev_portfolio_stage"
+      },
+      "2": {
+        "title": "Alpine WFHelper",
+        "description": "Un outil développé pour l’automatisation ou la gestion de workflows sous Alpine. Le projet explore l’intégration de scripts personnalisés pour faciliter les processus.",
+        "technologies": ["Alpine JS", "Warframe API", "JavaScript"],
+        "time": "10 heures",
+        "link": "https://github.com/Pmaioranool/efrei_B2_alpine_WFHelper"
+      },
+      "3": {
+        "title": "Server Web",
+        "description": "Projet de développement d’un serveur web simple, permettant d’héberger et de servir du contenu statique ou dynamique. Idéal pour explorer les bases des serveurs web.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "PHP",
+          "VM",
+          "Apache",
+          "altoRouter",
+          "MySQL"
+        ],
+        "time": "30 heures",
+        "link": "https://github.com/Pmaioranool/efrei_b2_serverWeb"
+      },
+      "4": {
+        "title": "Helldiver's 2 Challenge",
+        "description": "Participation à un challenge web dans le cadre du cursus EFREI, mettant en avant des compétences en développement front-end et résolution de problèmes.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "PostgreSQL",
+          "Docker",
+          "alteRouter"
+        ],
+        "time": "20 heures",
+        "link": "https://github.com/AlpinooO/efrei_b2_challengeWeb_Helldiver-s-2"
+      },
+      "5": {
+        "title": "THREE.js Pong Project",
+        "description": "Une implémentation du célèbre jeu Pong en utilisant THREE.js, mettant en avant des graphismes en 3D et une logique de jeu immersive.",
+        "technologies": ["JavaScript", "THREE.js"],
+        "time": "2 heures",
+        "link": "https://github.com/Pmaioranool/efrei_b2_THREEjs_projet_pong"
+      },
+      "6": {
+        "title": "Projet Unix",
+        "description": "Projet axé sur le développement sous environnement Unix, avec des scripts personnalisés pour résoudre des problèmes ou automatiser des tâches.",
+        "technologies": ["Unix", "Bash", "Shell scripting"],
+        "time": "7 heures",
+        "link": "https://github.com/Pmaioranool/efrei_bdev2_unix_projet"
+      }
+    }
+  }
 }
