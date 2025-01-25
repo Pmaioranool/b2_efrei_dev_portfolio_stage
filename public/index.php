@@ -17,8 +17,8 @@ $router->addRoute('GET', '/', MainController::class . '@home', 'home');
 $router->addRoute('GET', '/material', MainController::class . '@material', 'material');
 $router->addRoute('GET', '/technologies', MainController::class . '@technologies', 'technologies');
 $router->addRoute('GET', '/projects', MainController::class . '@projects', 'projects');
+$router->addRoute('GET', '/projects/{id}', MainController::class . '@project', 'project');
 $router->addRoute('POST', '/setLanguage', MainController::class . '@setLanguage', 'setLanguage');
-
 
 $route = $router->match(Request::getMethodFromGlobals(), Request::getPathFromGlobals());
 

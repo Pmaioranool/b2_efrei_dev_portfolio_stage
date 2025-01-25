@@ -39,7 +39,8 @@ CV téléchargeable
 multilingue
 page du matériel
 page des technologies connus
-page d'autres projets réaliser
+page d'autres projets réalisé
+page d'un projet avec des photo et autres précision sur ce projet
 
 Installation
 ------------

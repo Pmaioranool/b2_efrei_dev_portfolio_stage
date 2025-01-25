@@ -1,5 +1,5 @@
 {
-  "header": {
+  "headerPage": {
     "title": "Portfolio Lucas MAIORANO",
     "head": {
       "nav": {
@@ -18,12 +18,12 @@
       }
     }
   },
-  "footer": {
+  "footerPage": {
     "h3": "À propos",
     "p1": "Portfolio de",
     "p2": "Tous droits réservés."
   },
-  "home": {
+  "homePage": {
     "article1": {
       "title": "Compétences",
       "skills": [
@@ -39,18 +39,34 @@
         "GitHub"
       ]
     },
-    "article2": {
+    "article": {
       "title": "Salut, moi c'est Lucas",
-      "paragraph1": "Je suis un développeur web junior, passionné par le développement web et mobile. J'ai commencé à apprendre le développement web en école à EFREI en 2023. J'ai appris à développer des applications web et mobile en utilisant des technologies modernes et des méthodes agiles. J'ai acquis des compétences en HTML, CSS, JavaScript, PHP, Symfony, MySQL, PostgreSQL, Git, GitHub, et bien d'autres.",
-      "paragraph2": "Je suis actuellement à la recherche d'un stage et d'une alternance en tant que développeur web junior. Je suis ouvert à toutes les opportunités. Je suis prêt à relever de nouveaux défis et à apprendre de nouvelles technologies. Je suis motivé, curieux, autonome, rigoureux, et j'aime travailler en équipe. Je suis également passionné par la musique, les jeux vidéo, la lecture, les voyages et la cuisine.",
-      "paragraph3": {
-        "sentence1": "Je suis disponible pour un entretien. N'hésitez pas à me contacter si vous avez des questions, des suggestions, ou des opportunités. Voici mon email ",
-        "sentence2": ". Si possible, merci de mettre en objet : ",
-        "strong": "Proposition de stage ou d'alternance."
-      }
+      "h2-1": "À propos de moi",
+      "paragraph1": "Je m'appelle Lucas, développeur web junior passionné par le développement web et mobile. Actuellement étudiant à l'EFREI (promotion 2023), j'ai eu l'opportunité de me former aux technologies modernes et aux méthodes agiles, me permettant de développer des applications performantes et innovantes.",
+      "ul": {
+        "title": "Compétences techniques",
+        "li1-t": "Frontend : ",
+        "li1": "HTML, CSS, JavaScript",
+        "li2-t": "Backend : ",
+        "li2": "PHP, Symfony",
+        "li3-t": "Bases de données : ",
+        "li3": "MySQL, PostgreSQL",
+        "li4-t": "Outils et workflow : ",
+        "li4": "Git, GitHub",
+        "paragraph": "Je continue également à élargir mes compétences pour rester à jour avec les dernières tendances du secteur."
+      },
+      "h2-2": "Ce que je recherche",
+      "paragraph2": "Je suis activement à la recherche d’un stage ou d’une alternance en tant que développeur web junior. Motivé, curieux et rigoureux, je suis prêt à relever de nouveaux défis, à apprendre de nouvelles technologies, et à m’investir pleinement dans une équipe.",
+      "h2-3": "Centres d'intérêt",
+      "paragraph3": "En dehors du développement, j’ai une grande passion pour la musique, les jeux vidéo, la lecture, les voyages, et la cuisine. Ces passions nourrissent ma créativité et ma capacité à m’adapter à différents environnements.",
+      "h2-4": "Contact",
+      "p": "Email : ",
+      "paragraph4": "Merci d'indiquer en objet :",
+      "strong": "Proposition de stage ou d’alternance.",
+      "paragraph5": "Je suis disponible pour un entretien ou pour échanger si vous avez des questions, des suggestions ou des opportunités à me proposer."
     }
   },
-  "material": {
+  "materialPage": {
     "title": "Voici mon matériel pour travailler",
     "article1": {
       "h2": "PC portable",
@@ -80,6 +96,143 @@
       "p": "En plus des PC je possède un micro-casque et un téléphone android"
     }
   },
-  "technologies": {},
-  "projects": {}
+  "technologiesPage": {
+    "title": "Voici les technologies avec les quelles j'ai travailler",
+    "descriptionText": "Description :",
+    "principaleText": "Principalement utilisées pour :",
+    "technos": {
+      "HTML": {
+        "description": "HTML est le langage standard utilisé pour structurer et présenter le contenu des pages web. Il permet de définir la structure d'une page en utilisant des balises comme &lt;p&gt; pour les paragraphes, &lt;a&gt; pour les liens, et &lt;div&gt; pour les conteneurs.",
+        "principale": "Création de la structure des pages web.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+      },
+      "CSS": {
+        "description": "CSS est un langage de style utilisé pour contrôler l'apparence des documents HTML. Il permet de définir les couleurs, polices, espacements, dispositions, et autres éléments visuels.",
+        "principale": "Stylisation et mise en page des sites web.",
+        "know": "85",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+      },
+      "JavaScript": {
+        "description": "JavaScript est un langage de programmation dynamique et interprété qui permet d'ajouter des fonctionnalités interactives aux pages web, comme les animations, les formulaires dynamiques ou la mise à jour du contenu sans recharger la page.",
+        "principale": "Interactivité et dynamisme des pages web.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg"
+      },
+      "Node.js": {
+        "description": "Node.js est une plateforme JavaScript côté serveur qui permet d'exécuter du code JavaScript en dehors d'un navigateur. Il est conçu pour des applications réseau rapides et évolutives grâce à son architecture non-bloquante et basée sur les événements.",
+        "principale": "Création d'applications côté serveur et en temps réel (comme les chats ou les APIs).",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+      },
+      "PHP": {
+        "description": "PHP est un langage de script côté serveur conçu pour le développement web. Il est utilisé pour créer des pages web dynamiques en générant du contenu basé sur des données provenant d'une base de données ou d'autres sources.",
+        "principale": "Création de sites web dynamiques et gestion des serveurs.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+      },
+      "Symfony": {
+        "description": "Symfony est un framework PHP puissant et flexible qui aide à construire des applications web robustes. Il suit une architecture MVC (Modèle-Vue-Contrôleur) et fournit des outils réutilisables pour accélérer le développement.",
+        "principale": "Développement d'applications web structurées et maintenables.",
+        "know": "99",
+        "logo": "https://imgs.search.brave.com/6otm1BbZzvfGDNcb6vMbRoSS3F1YhOFBVE6klJdZHEQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zeW1m/b255LmNvbS9sb2dv/cy9zeW1mb255X2Js/YWNrXzAyLnBuZw"
+      },
+
+      "MySQL": {
+        "description": "MySQL est un système de gestion de base de données relationnelle open-source. Il utilise le langage SQL pour manipuler et gérer les données stockées dans des tables.",
+        "principale": "Stockage, organisation et récupération des données.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+      },
+      "PostgreSQL": {
+        "description": "PostgreSQL est un système avancé de gestion de base de données relationnelle open-source, connu pour sa robustesse, son extensibilité, et son support pour des fonctionnalités avancées comme les types de données personnalisés.",
+        "principale": "Gestion de bases de données complexes et performantes.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+      },
+      "Git": {
+        "description": "Git est un système de contrôle de version distribué qui permet aux développeurs de suivre les modifications du code source, collaborer efficacement et gérer plusieurs versions d'un projet.",
+        "principale": "Contrôle de version et collaboration dans les projets de développement.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg"
+      },
+      "GitHub": {
+        "description": "GitHub est une plateforme basée sur Git pour stocker, partager et collaborer sur des projets de développement. Elle offre des outils comme les pull requests, les issues, et les workflows pour la gestion des projets.",
+        "principale": "Hébergement et collaboration sur les projets de code source.",
+        "know": "99",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+      }
+    }
+  },
+  "projectsPage": {
+    "title": "Voici quelques-uns de mes projets",
+    "importantText": {
+      "timeText": "Réalisé en : ",
+      "technologiesText": "Technologies utilisées : ",
+      "linkText": "Voir le projet",
+      "repoText": "voir le repo",
+      "descriptionText": "Description :",
+      "backText": "Retour aux projets"
+    },
+    "projects": {
+      "1": {
+        "title": "Portfolio",
+        "description": "Mon portfolio personnel pour présenter mes compétences, mon parcours, et mes projets. Il est conçu avec HTML, CSS, et JavaScript, et hébergé sur GitHub Pages.",
+        "technologies": ["HTML", "CSS", "PHP", "Docker", "alteRouter"],
+        "time": "20 heures",
+        "link": "https://github.com/Pmaioranool/b2_efrei_dev_portfolio_stage"
+      },
+      "2": {
+        "title": "Alpine WFHelper",
+        "description": "Un outil développé pour l’automatisation ou la gestion de workflows sous Alpine. Le projet explore l’intégration de scripts personnalisés pour faciliter les processus.",
+        "technologies": ["Alpine JS", "Warframe API", "JavaScript"],
+        "time": "10 heures",
+        "link": "https://github.com/Pmaioranool/efrei_B2_alpine_WFHelper"
+      },
+      "3": {
+        "title": "Server Web",
+        "description": "Projet de développement d’un serveur web simple, permettant d’héberger et de servir du contenu statique ou dynamique. Idéal pour explorer les bases des serveurs web.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "PHP",
+          "VM",
+          "Apache",
+          "altoRouter",
+          "MySQL"
+        ],
+        "time": "30 heures",
+        "link": "https://github.com/Pmaioranool/efrei_b2_serverWeb"
+      },
+      "4": {
+        "title": "Helldiver's 2 Challenge",
+        "description": "Participation à un challenge web dans le cadre du cursus EFREI, mettant en avant des compétences en développement front-end et résolution de problèmes.",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "PHP",
+          "PostgreSQL",
+          "Docker",
+          "alteRouter"
+        ],
+        "time": "20 heures",
+        "link": "https://github.com/AlpinooO/efrei_b2_challengeWeb_Helldiver-s-2"
+      },
+      "5": {
+        "title": "THREE.js Pong Project",
+        "description": "Une implémentation du célèbre jeu Pong en utilisant THREE.js, mettant en avant des graphismes en 3D et une logique de jeu immersive.",
+        "technologies": ["JavaScript", "THREE.js"],
+        "time": "2 heures",
+        "link": "https://github.com/Pmaioranool/efrei_b2_THREEjs_projet_pong"
+      },
+      "6": {
+        "title": "Projet Unix",
+        "description": "Projet axé sur le développement sous environnement Unix, avec des scripts personnalisés pour résoudre des problèmes ou automatiser des tâches.",
+        "technologies": ["Unix", "Bash", "Shell scripting"],
+        "time": "7 heures",
+        "link": "https://github.com/Pmaioranool/efrei_bdev2_unix_projet"
+      }
+    }
+  }
 }

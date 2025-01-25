@@ -22,8 +22,8 @@ class CoreController
     public function render($view, $data = [])
     {
         $obj = $this->getTextes();
-        $headerData = $obj['header'];
-        $footerData = $obj['footer'];
+        $headerData = $obj['headerPage'];
+        $footerData = $obj['footerPage'];
         extract($headerData);
         extract($footerData);
         extract($data);
