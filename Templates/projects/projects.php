@@ -2,7 +2,7 @@
     <h1><?= $data["title"] ?></h1>
     <?php
     foreach ($data["projects"] as $key => $project) { ?>
-    <article>
+    <article class="technologies-article">
         <h2><?= $project['title'] ?></h2>
         <p><?= $project['description'] ?></p>
         <p><?= $data["importantText"]['timeText'] ?><?= $project['time'] ?></p>

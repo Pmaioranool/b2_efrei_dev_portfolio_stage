@@ -213,8 +213,8 @@ section ul li {
   width: 40%;
   padding: 1%;
   break-inside: avoid;
-  border-bottom: #333 solid 3px;
-  min-height: 3%;
+  border-bottom: var(--primary-color) solid 3px;
+  min-height: 10rem;
 }
 
 .technologies-article h2 {

@@ -185,7 +185,13 @@
       "2": {
         "title": "Alpine WFHelper",
         "description": "A tool developed for workflow automation and management on Alpine. The project explores the integration of custom scripts to simplify processes.",
-        "technologies": ["Alpine JS", "Warframe API", "JavaScript"],
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Alpine JS",
+          "Warframe API",
+          "JavaScript"
+        ],
         "time": "10 hours",
         "link": "https://github.com/Pmaioranool/efrei_B2_alpine_WFHelper"
       },

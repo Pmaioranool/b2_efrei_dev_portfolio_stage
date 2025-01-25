@@ -1,5 +1,5 @@
 <main>
-    <article>
+    <article class="main-content">
         <h1><?= $data["title"] ?></h1>
         <h2><?= $data["title"] ?></h2>
         <p><?= $data["description"] ?></p>
